@@ -1,11 +1,11 @@
 import { FC } from 'react';
 import '../assets/styles/App.css';
 
-interface Props {
+interface IProps {
   title: string;
 }
 
-const AdviceTitle: FC<Props> = (props: Props) => {
+const AdviceTitle: FC<IProps> = (props: IProps) => {
   return <h1 className="header">{props.title}</h1>;
 };
 

@@ -1,11 +1,15 @@
 import { FC } from 'react';
 
 interface Props {
-  title: string;
+  icon: string;
 }
 
 const Button: FC<Props> = (props: Props) => {
-  return <button>{props.title}</button>;
+  return (
+    <button className="button">
+      <img src={props.icon} />
+    </button>
+  );
 };
 
 export default Button;

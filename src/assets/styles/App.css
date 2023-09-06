@@ -3,6 +3,8 @@ body {
   align-items: center;
   justify-content: center;
   background-color: hsl(218, 23%, 16%);
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
 }
 
 .card {
@@ -11,16 +13,31 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  padding: 0 50px;
   border: thick solid red;
-  height: 40vh;
+  height: 50vh;
   width: 40vw;
   /*padding: 100px;*/
 }
 
 .header {
+  letter-spacing: 5px;
   color: hsl(150, 100%, 66%);
+  font-size: 15px;
 }
 
 .text {
   color: hsl(193, 38%, 86%);
+  font-size: 28px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
 }
