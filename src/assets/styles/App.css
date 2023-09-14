@@ -14,8 +14,9 @@ body {
   align-items: center;
   justify-content: space-evenly;
   padding: 0 50px;
-  border: thick solid red;
-  height: 50vh;
+  /* border: thick solid red; */
+  border-radius: 1rem;
+  height: 60vh;
   width: 40vw;
   /*padding: 100px;*/
 }
